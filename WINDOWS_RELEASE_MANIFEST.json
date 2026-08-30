@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "platform": "windows",
+  "architecture": "x64",
+  "targetEngine": "Phaser 3 + TypeScript 2.5D",
+  "releaseDate": "2026-08-30",
+  "setup": {
+    "filename": "AURORA-AI-CREATOR-Setup.exe",
+    "sizeBytes": 188352813,
+    "sizeMB": 179.63,
+    "sha256": "bd9fe0f4e068a0027a43bed822a15103629733510ef88988f279c51fbc5d2e82",
+    "fileType": "PE32 executable (GUI) Intel 80386, for MS Windows, NSIS Installer",
+    "architecture": "x64 target payload",
+    "verified": true
+  },
+  "portable": {
+    "filename": "AURORA-AI-CREATOR-Portable.exe",
+    "sizeBytes": 188305581,
+    "sizeMB": 179.58,
+    "sha256": "c4ed0878e0bd309f10e913157be1d6560d95c2f5ec6d239ef68cd0a14c3297df",
+    "fileType": "PE32 executable (GUI) Intel 80386, for MS Windows, NSIS Portable Launcher",
+    "architecture": "x64 target payload",
+    "verified": true
+  },
+  "mainBinary": {
+    "filename": "AURORA AI CREATOR.exe",
+    "path": "release/windows/win-unpacked/AURORA AI CREATOR.exe",
+    "sizeBytes": 244440576,
+    "sizeMB": 233.12,
+    "sha256": "42e768bd25d6b2bf9c3df4e48ca655b65de90b63f1d61dfaddaca3e378e32d2e",
+    "fileType": "PE32+ executable (GUI) x86-64, for MS Windows",
+    "architecture": "x64 (AMD64)"
+  },
+  "zip": {
+    "filename": "AURORA-AI-CREATOR-WINDOWS-v1.0.0.zip",
+    "sizeBytes": 375790292,
+    "sizeMB": 358.38,
+    "sha256": "47637d94efe93e3b6e0e0490c849987cff7bf6cac6b09fc243e77026487264ef",
+    "verifiedInternalHashes": true
+  }
+}

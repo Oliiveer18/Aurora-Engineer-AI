@@ -1,0 +1,44 @@
+{
+  "appId": "com.aurora.aicreator",
+  "productName": "AURORA AI CREATOR",
+  "copyright": "Copyright © 2026 AURORA Engine Team",
+  "directories": {
+    "output": "release/windows",
+    "buildResources": "assets"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.cjs"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "signAndEditExecutable": false,
+    "requestedExecutionLevel": "asInvoker"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "AURORA AI CREATOR",
+    "artifactName": "AURORA-AI-CREATOR-Setup.exe",
+    "deleteAppDataOnUninstall": false
+  },
+  "portable": {
+    "artifactName": "AURORA-AI-CREATOR-Portable.exe",
+    "requestExecutionLevel": "user"
+  }
+}

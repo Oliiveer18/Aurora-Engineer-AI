@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix AURORA AI CREATOR",
+  "description": "Estudio avanzado de creación de contenido con IA para el videojuego RPG 2.5D AURORA (Phaser 3 + TypeScript).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
